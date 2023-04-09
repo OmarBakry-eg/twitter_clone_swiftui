@@ -18,6 +18,7 @@
 		074E8F7D29D9DA9F005BEA07 /* TwitterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E8F7C29D9DA9F005BEA07 /* TwitterRowView.swift */; };
 		07FD5E2929E3018200E4109D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD5E2829E3018200E4109D /* MainTabView.swift */; };
 		07FD5E2F29E3063500E4109D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD5E2E29E3063500E4109D /* ProfileView.swift */; };
+		07FD5E3129E3276200E4109D /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD5E3029E3276200E4109D /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		074E8F7C29D9DA9F005BEA07 /* TwitterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterRowView.swift; sourceTree = "<group>"; };
 		07FD5E2829E3018200E4109D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		07FD5E2E29E3063500E4109D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		07FD5E3029E3276200E4109D /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 		07FD5E2D29E3062400E4109D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				07FD5E3029E3276200E4109D /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074E8F4929D9CFF1005BEA07 /* ContentView.swift in Sources */,
+				07FD5E3129E3276200E4109D /* TweetFilterViewModel.swift in Sources */,
 				074E8F7D29D9DA9F005BEA07 /* TwitterRowView.swift in Sources */,
 				074E8F7B29D9D580005BEA07 /* FeedView.swift in Sources */,
 				074E8F4729D9CFF1005BEA07 /* twitter_cloneApp.swift in Sources */,
